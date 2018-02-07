@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shapes</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Using CSS to make shapes!">
+	<style type="text/css">
+		#square {
+			width: 200px;
+			height: 200px;
+			background-color: purple;
+			margin: 1rem;
+		}
+
+		#circle {
+			width: 200px;
+			height: 200px;
+			background-color: orange;
+			border-radius: 100%;
+			margin: 1rem;
+		}
+
+		#triangle {
+			width: 0;
+			height: 0;
+			border-top: 100px solid transparent;
+			border-right: 100px solid transparent;
+			border-bottom: 200px solid red;
+			border-left: 100px solid transparent;
+			margin: 1rem;
+		}
+
+		#pacman {
+			width: 0;
+			height: 0;
+			border-top: 100px solid yellow;
+			border-right: 100px solid transparent;
+			border-bottom: 100px solid yellow;
+			border-left: 100px solid yellow;
+			margin: 1rem;
+			border-radius: 100%;
+			position: relative;
+			display: inline-block;
+		}
+
+		.eye {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			border-radius: 100%;
+			background-color: #000;
+			bottom: 35px;
+			position: absolute;
+		}
+
+	</style>
+</head>
+<body>
+
+<div id="square"></div>
+
+<div id="circle"></div>
+
+<div id="triangle"></div>
+
+<div id="pacman"><div class="eye"></div></div>
+
+
+</body>
+</html>
